@@ -1,0 +1,24 @@
+{
+    "name": "haska/laravel-pdf",
+    "description": "Laravel PDF package",
+    "license": "MIT",
+    "keywords": ["laravel", "dompdf", "pdf"],
+    "authors": [
+        {
+            "name": "David Haska",
+            "email": "david.haska@seznam.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.x",
+        "dompdf/dompdf": "0.6.x"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Haska\\PDF": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
