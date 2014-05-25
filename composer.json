@@ -1,6 +1,6 @@
 {
     "name": "haska/laravel-pdf",
-    "description": "Laravel PDF package",
+    "description": "Laravel Pdf package",
     "license": "MIT",
     "keywords": ["laravel", "dompdf", "pdf"],
     "authors": [
@@ -18,7 +18,7 @@
 
     "autoload": {
         "psr-0": {
-            "Haska\\PDF": "src/"
+            "Haska\\Pdf": "src/"
         }
     }
 }

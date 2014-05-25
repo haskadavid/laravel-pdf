@@ -1,6 +1,6 @@
-<?php namespace Haska\PDF;
+<?php namespace Haska\Pdf;
 
-class PDF {
+class Pdf {
 
     /** @var \DOMPDF  */
     protected $pdf;

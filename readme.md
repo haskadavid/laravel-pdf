@@ -1,16 +1,28 @@
+Laravel pdf package
+============
+
+Informations
+---
+
+Provider:
+
+```php
+'Haska\Pdf\PdfServiceProvider',
+```
+
+Alias:
+
+```php
+'PDF' => 'Haska\Pdf\Facade',
+```
+
+Config:
+
+```php
+php artisan config:publish haska/laravel-pdf
+```
+
 ## DOMPDF Wrapper for Laravel 4
-
-Require this package in your composer.json and update composer. This will download the package and the dompdf + fontlib libraries also.
-
-    "barryvdh/laravel-dompdf": "*"
-
-After updating composer, add the ServiceProvider to the providers array in app/config/app.php
-
-    'Barryvdh\PDF\ServiceProvider',
-
-You can optionally use the facade for shorter code. Add this to your facades:
-
-    'PDF' => 'Barryvdh\DomPDF\Facade',
 
 You can create a new DOMPDF instance and load a HTML string, file or view name. You can save it to a file, or stream (show in browser) or download.
 
@@ -33,15 +45,7 @@ You can change the orientation and paper size, and hide or show errors (by defau
 
 If you need the output as a string, you can get the rendered PDF with the output() function, so you can save/output it yourself.
 
-You can  publish the config-file to change some settings (default paper etc).
-
-    php artisan config:publish barryvdh/laravel-dompdf
-
 ### Tip: UTF-8 support
 In your templates, set the UTF-8 Metatag:
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-### License
-
-This DOMPDF Wrapper for Laravel4 is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

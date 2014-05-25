@@ -1,4 +1,4 @@
-<?php namespace Haska\PDF;
+<?php namespace Haska\Pdf;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 

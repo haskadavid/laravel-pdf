@@ -1,4 +1,4 @@
-<?php namespace Haska\PDF;
+<?php namespace Haska\Pdf;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -30,7 +30,7 @@ class PdfServiceProvider extends IlluminateServiceProvider {
 	{
         $this->app['dompdf'] = $this->app->share(function($app)
             {
-                return new PDF;
+                return new Pdf;
             });
 	}
 
